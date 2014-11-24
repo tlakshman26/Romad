@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center_horizontal"
+  android:orientation="vertical">
+    
+    
+    
+   <!--  <TextView
+      android:id="@+id/text_incomingName"
+      android:layout_marginTop="150dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="+919700540500"
+      android:textStyle="bold"
+      android:textSize="22sp" />
+    
+    <TextView
+      android:layout_marginTop="20dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Incoming call"
+      android:textStyle="bold"
+      android:textSize="22sp" />
+    
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+  		android:orientation="horizontal"
+  		android:padding="15sp">
+
+        <Button
+            android:id="@+id/btn_decline"
+            android:layout_width="135sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="@string/decline"
+            android:onClick="declineCall"
+            android:textColor="#2c87f0" />
+
+        <Button
+            android:layout_marginLeft="15dp"
+            android:id="@+id/btn_voice_mail"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="@string/voicemail"
+            android:textColor="#2c87f0" 
+            />
+	</LinearLayout>
+        <Button
+            android:id="@+id/btn_accept"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="@string/accept"
+            android:onClick="answerCall"
+            android:textColor="#2c87f0" />
+
+        <ImageButton
+            android:id="@+id/ic_jog_dial_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:onClick="answerCall"
+            android:src="@drawable/ic_jog_dial_answer"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/ic_jog_dial_answer_and_hold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:src="@drawable/ic_jog_dial_answer_and_hold"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/ic_jog_dial_decline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:onClick="declineCall"
+            android:src="@drawable/ic_jog_dial_decline"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/Speaker_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:onClick="Speaker_on"
+                android:src="@android:drawable/ic_btn_speak_now"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/Speaker_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:onClick="Speaker_off"
+                android:src="@android:drawable/stat_sys_speakerphone"
+                android:visibility="gone" />
+        </LinearLayout> -->
+
+</LinearLayout>
